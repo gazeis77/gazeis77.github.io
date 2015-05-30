@@ -1,0 +1,37 @@
+/********************
+GENERAL
+*********************/
+body {
+  font-family: Lato, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/********************
+COLORS
+*********************/
+
+body {
+	background-color: #429dd1;
+  text-align: center;
+}
+
+/********************
+TEXT COLORS
+*********************/
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: snow;
+}
+
