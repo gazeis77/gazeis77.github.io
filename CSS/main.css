@@ -1,10 +1,22 @@
 
+* {
+  box-sizing: border-box;
+}
+
+
 /********************
 main-header
 *********************/
 .main-header {
   padding: 170px;
-  
+ 	background: url('../img/untitled-34.jpg') no-repeat center;
+	background-size: cover;
+	border-radius: 25px;
+}
+
+#cover_photo {
+	
+	background-size: cover;
 }
 
 h1 {
@@ -13,8 +25,8 @@ h1 {
 }
 
 .city {
-  margin-top: 0;
-  color:rgba(0,0,0, .3);
+	padding: 100px;
+  color:rgba(255,255,255, .5);
   
 }
 
@@ -39,7 +51,6 @@ ul {
 }
 
 img{
-  display: inline-block;
   max-width: 100%;
 }
 /********************
@@ -64,6 +75,8 @@ nav a {
 }
 
 
+
+
 /********************
 DIV
 *********************/
@@ -74,6 +87,10 @@ DIV
   	padding: 0 5%;
 }
 
+ .page_break {
+  border-top: 10px solid black;
+ 
+}
 
 /********************
 COLORS
