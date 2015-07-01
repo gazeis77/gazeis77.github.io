@@ -1,147 +1,18 @@
+/*********************
+IMAGE
+**********************/
 
-* {
-  box-sizing: border-box;
-}
-
-
-/********************
-main-header
-*********************/
-.main-header {
-  padding: 170px;
- 	background: url('../img/untitled-34.jpg') no-repeat center;
-	background-size: cover;
-	border-radius: 25px;
-}
-
-#cover_photo {
-	
-	background-size: cover;
-}
-
-h1 {
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.city {
-	padding: 100px;
-  color:rgba(255,255,255, .5);
-  
-}
-
-/********************
-GENERAL
-*********************/
-body {
-  font-family: Lato, sans-serif;
-}
-
-h2 {
-  display: inline; 
-  padding-top: 10px;
-}
-
-a {
-  text-decoration: none; 
-}
-
-ul {
-  list-style-type: none; 
-  display: inline;
-  padding-top: 200px;
-
-}
-
-img{
-  max-width: 100%;
-  padding: 25px 0;
-}
-/********************
-NAV
-*********************/
-nav {
-  text-align: center;
-	margin: 1em;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 50px;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-   padding: 15px 
+img {
+  margin-bottom: 20px;
+  max-width: 100%
 }
 
 
 
+/*********************
+COLOR
+**********************/
 
-/********************
-DIV
-*********************/
-
-#wrapper {
-	max-width: 940px;
-  	margin: 0 auto;
-  	padding: 0 5%;
-}
-
-/* .page_break {
-  	border-top: 2px solid silver;
-}*/
-
-#photobooth {
-	border: 2px solid silver;
-	border-radius: 2%;
-}
-
-#photography {
-	border: 2px solid silver;
-	border-radius: 2%;
-	
-
-}
-div {
-	margin: 25px 0;
-}
-
-
-/********************
-COLORS
-*********************/
-
-body {
-	background-color: #429dd1;
-  text-align: center;
-}
-
-a {
-  color: white;
-}
-
-/********************
-TEXT COLORS
-*********************/
-
-h1 {
-	color: white;
-  text-shadow: 0 1px 1px rgba(0,0,0, 1);
-}
-
-h2 {
-	color: snow;
-}
-
-li {
-  color:snow;
-}
-
-p {
-  color: snow;
-}
-
+  body {
+    background-color: #429dd1;
+  }
