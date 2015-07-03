@@ -4,6 +4,7 @@
     <title>Zeis Photo Cincinnati, OH</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/main.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -13,29 +14,83 @@
   </head>
   <body>
 
-<!--ZeisPhoto-->
+<!--Navbar-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+<!--Navbar Collapse-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-    <div class="container">
-      <header class="page-header">
-        <ul class="nav nav-tabs pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Photobooth</a></li>
-          <li><a href="#">Photography</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h2>Zeis Photo</h2>
-      </header>
-      
-      <div class="jumbotron">
-        <h1 class="">Zeis Photo</h1>
-        <img src="img/3593386.png">
-        <p class="lead">Our Photobooth has no hidden fees at all. What you see is what you get. The Zeis photo booth is not like the rest. We can custom quote you on anything you would like. Prices can vary. We now have only one package to choose from - Our Standard Package!
-        </p>
-        <p>
-          <a class="btn btn-info btn-lg" href="#" >Photobooth Rentals</a>
-          <a class="btn btn-info btn-lg" href="#" >Photography Gallery</a>
-        </p> 
+        <a class="navbar-brand text-muted" href="#">Zeis Photo</a>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#">Photobooth</a></li>
+           <li class="dropdown">
+             <a data-toggle="dropdown" data-target="#">Photography<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"></a>Landscapes</li>
+                <li><a href="#"></a>Events</li>
+                <li><a href="#"></a>Other</li>
+                <li class="divider"></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </li>
+           <li><a class="hidden-xs" href="#">Contact</a></li>
+         </ul>
+       </div>
+        <!--<h2 class="main-logo pull-left">Zeis Photo</h2>-->
       </div>
+    </div>
+<!--Carousel-->
+
+  <div id="myCarousel" class="carousel slide jumbotron">
+    <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+        <div class="item active">
+            <h1 class="">Zeis Photo</h1>
+          <p class="lead">Our Photobooth has no hidden fees at all. What you see is what you get. The Zeis photo booth is not like the rest. We can custom quote you on anything you would like. Prices can vary. We now have only one package to choose from - Our Standard Package!
+          </p>
+          <p>
+            <a class="btn btn-info btn-lg" href="#" >Photobooth Rentals</a>
+            <a class="btn btn-info btn-lg" href="#" >Photography Gallery</a>
+          </p> 
+        </div>
+
+        <div class="item">
+              <h1>Photobooth</h1>
+              <p class="lead">We'll teach you how to build it from scratch!</p>
+              <p>
+                <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+              </p>
+
+        </div>
+         <div class="item">
+            <h1>Photography</h1>
+              <p class="lead">We'll teach you how to build it from scratch!</p>
+              <p>
+                <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+              </p> 
+        </div>
+
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+       <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
 
  <!--Photobooth-->
 
@@ -52,13 +107,14 @@
       </div>
     </div>
 
+
  <!--Photography-->
 
  
     <div class="col-xs-6">
        <div class="">
         <h1 class="">Fine Art Photography</h1>
-        <img src="img/untitled-34.jpg" class="largePhoto">
+        <img src="img/untitled-2.jpg">
         <p>
           <a class="btn btn-info btn-lg" href="#">Gallery</a>
         </p> 
@@ -72,6 +128,9 @@
     <div class="row panel-body">
        <div class="">
         <p><strong>Contact Us</strong></p>
+        <form>
+
+        </form>
         <p>
           <a class="btn btn-info btn-lg" href="#">submit</a>
         </p> 
@@ -84,5 +143,7 @@
         <p>&copy; 2015 ZeisPhoto - By George Zeis</p>
       </div>
     </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

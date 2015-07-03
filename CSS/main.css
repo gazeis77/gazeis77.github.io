@@ -1,4 +1,27 @@
 /*********************
+Layout
+**********************/
+
+body {
+	padding-top: 50px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+
+/*********************
+Jumbotron
+**********************/
+
+  .jumbotron {
+  	text-align: center;
+  	padding-bottom: 50px;
+  }
+
+
+/*********************
 IMAGE
 **********************/
 
@@ -10,9 +33,58 @@ img {
 
 
 /*********************
+Navbar
+**********************/
+
+ .navbar {
+ 	font-weight: bold;
+ 	margin-right: 0;
+ }
+
+
+/*********************
 COLOR
 **********************/
 
   body {
     background-color: #429dd1;
   }
+
+
+
+
+
+/*********************
+Logo and Icons
+**********************/
+.main-logo {
+	width: 124px;
+	height: 34px;
+	margin-top: 22px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url() no-repeat;
+	background-size: 100%;
+}
+
+
+
+/*********************
+Carousel
+**********************/
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+.carousel-indicators li {
+	border-color: #222;
+}
+
+
+
