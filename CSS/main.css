@@ -10,6 +10,10 @@ body {
 	max-width: 1000px;
 }
 
+.container-fluid {
+	max-width: 1000px;
+}
+
 
 /*********************
 Jumbotron
@@ -55,6 +59,9 @@ Navbar
  	margin-right: 0;
  }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
 
 /*********************
 COLOR
