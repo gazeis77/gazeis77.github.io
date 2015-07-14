@@ -116,12 +116,17 @@ panel
 	text-align: center;
 }
 
-/*********************
-panel
-**********************/
-
 .gz {
 	text-align: center;
+}
+
+
+/*********************
+fotorama
+**********************/
+
+.fotorama {
+	margin-top: 20px;
 }
 
 
