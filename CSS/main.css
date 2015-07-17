@@ -14,6 +14,18 @@ body {
 	max-width: 1000px;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+a {
+	color: #000;
+}
+
+
+  a:hover {
+  	color: beige;
+  }
 
 /*********************
 Jumbotron
@@ -21,7 +33,7 @@ Jumbotron
 
   .jumbotron {
   	text-align: center;
-  	padding-bottom: 50px;
+  	margin: 50px 0;
   }
 
 
@@ -71,6 +83,9 @@ COLOR
     background-color: #429dd1;
   }
 
+  .text-warning {
+  	color: black;
+  }
 
 
 
@@ -120,14 +135,31 @@ panel
 	text-align: center;
 }
 
+.panel-text {
+	margin: 20px;
+}
+
 
 /*********************
 fotorama
 **********************/
 
 .fotorama {
-	margin-top: 20px;
+	margin: 20px 0;
+	background-color: black;
+
 }
+
+
+
+/*
+ $el.css({
+      width: Math.ceil(width),
+      height: Math.ceil(height),
+      left: Math.floor(measuresToFit.w / 2 - width / 2),
+      top: Math.floor(measuresToFit.h / 2 - height / 2)
+    });
+    */
 
 
 
