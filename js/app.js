@@ -2,8 +2,8 @@
   $('.fotorama').fotorama({
     data: [
       {img: 'img/untitled-1.jpg'},
-      {img: 'img/untitled-2.jpg', full: 'img/untitled-2.jpg'},
-      {img: 'img/untitled-3.jpg', full: 'img/untitled-3.jpg'},
+      {img: 'img/untitled-2.jpg'},
+      {img: 'img/untitled-3.jpg'},
       {img: 'img/untitled-5.jpg'},
       {img: 'img/untitled-6.jpg'},
       {img: 'img/untitled-7.jpg'},

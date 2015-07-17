@@ -122,6 +122,9 @@ Carousel
 	border-color: #222;
 }
 
+.carousel-caption {
+	bottom: 30%;
+}
 /*********************
 panel
 **********************/
@@ -151,15 +154,13 @@ fotorama
 }
 
 
+/*********************
+Booth
+**********************/
 
-/*
- $el.css({
-      width: Math.ceil(width),
-      height: Math.ceil(height),
-      left: Math.floor(measuresToFit.w / 2 - width / 2),
-      top: Math.floor(measuresToFit.h / 2 - height / 2)
-    });
-    */
+h3 {
+	margin-bottom: 20px; 
+}
 
 
 
