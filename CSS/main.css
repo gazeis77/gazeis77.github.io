@@ -126,6 +126,10 @@ Carousel
   bottom: 30px;
   
 }
+
+.car-text {
+	color: white;
+}
 /*********************
 panel
 **********************/
@@ -164,9 +168,17 @@ h3 {
 }
 
 
+/*********************
+packages
+**********************/
 
+.package {
+	display: inline-block;
+}
 
-
+.package ul {
+	list-style-type: none;
+}
 
 
 
