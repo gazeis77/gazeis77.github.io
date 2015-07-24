@@ -19,12 +19,12 @@ a:link {
 }
 
 a {
-	color: #000;
+	color: #fff;
 }
 
 
   a:hover {
-  	color: beige;
+  	color: gray;
   }
 
 /*********************
@@ -124,12 +124,18 @@ Carousel
 
 .carousel-caption {
   bottom: 30px;
+  text-shadow: 2px 2px #000;
   
 }
 
 .car-text {
 	color: white;
 }
+
+#myCarousel .carousel-inner div .item {
+	background: linear-gradient(0deg, gray, #778899)
+}
+
 /*********************
 panel
 **********************/

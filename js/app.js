@@ -42,16 +42,16 @@
       {img: 'img/untitled-41.jpg'},
       {img: 'img/untitled-42.jpg'},
       {img: 'img/untitled-43.jpg'},
- 	{img: 'img/untitled-44.jpg'},
- 	{img: 'img/untitled-45.jpg'},
- 	{img: 'img/untitled-46.jpg'},
- 	{img: 'img/untitled-47.jpg'},
- 	{img: 'img/untitled-48.jpg'},
- 	{img: 'img/untitled-49.jpg'},
- 	{img: 'img/untitled-50.jpg'},
- 	{img: 'img/untitled-51.jpg'},
- 	{img: 'img/untitled-52.jpg'}, 
- 	{img: 'img/untitled-53.jpg'},
+ 	    {img: 'img/untitled-44.jpg'},
+    	{img: 'img/untitled-45.jpg'},
+    	{img: 'img/untitled-46.jpg'},
+    	{img: 'img/untitled-47.jpg'},
+    	{img: 'img/untitled-48.jpg'},
+ 	    {img: 'img/untitled-49.jpg'},
+    	{img: 'img/untitled-50.jpg'},
+     	{img: 'img/untitled-51.jpg'},
+ 	    {img: 'img/untitled-52.jpg'}, 
+ 	    {img: 'img/untitled-53.jpg'},
       {img: 'img/untitled-54.jpg'},
       {img: 'img/untitled-55.jpg'},
       {img: 'img/untitled-56.jpg'},
@@ -104,11 +104,100 @@ $('.fotorama')
 
 
 
-/*
-  $(function () {
-    var fotorama = $('.fotorama')
-      .fotorama({allowfullscreen: true})
-      .data('fotorama');
+var imgname =   
+[ 
+  'img/untitled-75.jpg',
+  'img/untitled-74.jpg',
+  'img/untitled-73.jpg',
+  'img/untitled-72.jpg',
+  'img/untitled-71.jpg',
+  'img/untitled-70.jpg',
+  'img/untitled-69.jpg',
+  'img/untitled-68.jpg',
+  'img/untitled-67.jpg',
+  'img/untitled-66.jpg',
+  'img/untitled-65.jpg',
+  'img/untitled-64.jpg',
+  'img/untitled-63.jpg',
+  'img/untitled-62.jpg',
+  'img/untitled-61.jpg',
+  'img/untitled-50.jpg',
+  'img/untitled-51.jpg',
+  'img/untitled-52.jpg',
+  'img/untitled-53.jpg',
+  'img/untitled-54.jpg',
+  'img/untitled-55.jpg',
+  'img/untitled-56.jpg',
+  'img/untitled-57.jpg',
+  'img/untitled-58.jpg',
+  'img/untitled-59.jpg',
+  'img/untitled-49.jpg',
+  'img/untitled-48.jpg',
+  'img/untitled-47.jpg',
+  'img/untitled-46.jpg',
+  'img/untitled-45.jpg',
+  'img/untitled-44.jpg',
+  'img/untitled-43.jpg',
+  'img/untitled-42.jpg',
+  'img/untitled-41.jpg',
+  'img/untitled-40.jpg',
+  'img/untitled-30.jpg',
+  'img/untitled-31.jpg',
+  'img/untitled-32.jpg',
+  'img/untitled-33.jpg',
+  'img/untitled-34.jpg',
+  'img/untitled-35.jpg',
+  'img/untitled-36.jpg',
+  'img/untitled-37.jpg',
+  'img/untitled-38.jpg',
+  'img/untitled-39.jpg',
+  'img/untitled-11.jpg',
+  'img/untitled-12.jpg',
+  'img/untitled-13.jpg',
+  'img/untitled-14.jpg',
+  'img/untitled-15.jpg',
+  'img/untitled-16.jpg',
+  'img/untitled-17.jpg',
+  'img/untitled-18.jpg',
+  'img/untitled-19.jpg',
+  'img/untitled-20.jpg',
+  'img/untitled-21.jpg',
+  'img/untitled-22.jpg',
+  'img/untitled-23.jpg',
+  'img/untitled-24.jpg',
+  'img/untitled-25.jpg',
+  'img/untitled-26.jpg',
+  'img/untitled-27.jpg',
+  'img/untitled-28.jpg',
+  'img/untitled-29.jpg',
+  'img/untitled-2.jpg',
+  'img/untitled-3.jpg',
+  'img/untitled-5.jpg',
+  'img/untitled-6.jpg',
+  'img/untitled-7.jpg',
+  'img/untitled-8.jpg',
+  'img/untitled-10.jpg'
+ ]
+      
 
-    fotorama.requestFullScreen();
-  });*/
+    var $div = $(".imgname");
+
+    $.each(imgname, function(i, val) {
+        $("<img />").attr("src", val).appendTo($div);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
