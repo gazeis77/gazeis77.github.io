@@ -187,6 +187,23 @@ packages
 }
 
 
+/*********************
+packages
+**********************/
+
+label span, .red {
+	color: #8B0000;
+}
+
+#errors {
+	color: #8B0000;
+}
+
+.errors {
+	color: black;
+}
+
+
 
 
 
