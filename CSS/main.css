@@ -26,6 +26,10 @@ a {
   a:hover {
   	color: gray;
   }
+/*
+  p {
+  	color: #C0C0C0;
+  } /*
 
 /*********************
 Jumbotron
@@ -125,32 +129,10 @@ Carousel
 .carousel-caption {
   bottom: 30px;
   text-shadow: 2px 2px #000;
-  
 }
 
 .car-text {
 	color: white;
-}
-
-#myCarousel .carousel-inner div .item {
-	background: linear-gradient(0deg, gray, #778899)
-}
-
-/*********************
-panel
-**********************/
-
-
-.panel-body {
-	text-align: center;
-}
-
-.gz {
-	text-align: center;
-}
-
-.panel-text {
-	margin: 20px;
 }
 
 
@@ -186,6 +168,13 @@ packages
 	list-style-type: none;
 }
 
+.standardPackage {
+	text-align: center;
+}
+
+.standardPackage ul, li {
+	list-style-type: none;
+}
 
 /*********************
 packages
