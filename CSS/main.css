@@ -1,6 +1,14 @@
 /*********************
 Layout
 **********************/
+p {
+	@font-face {
+font-family: 'Avenir Next LT Pro Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Condensed'), url('AvenirNextLTPro-Cn.woff') format('woff');
+}
+}
 
 body {
 	padding-top: 50px;
@@ -79,12 +87,25 @@ Navbar
     display: block;
  }
 
+.navbar-brand {
+	width: 180px;
+	height: 80px;
+	margin-bottom: 0;
+}
+
+/*
+ .nav-logo {
+ 	width: 100px;
+ 	margin-bottom: -75px;
+
+ }/*
+
 /*********************
 COLOR
 **********************/
 
   body {
-    background-color: #429dd1;
+    background-color: #3C6E7F;
   }
 
   .text-warning {
@@ -97,16 +118,11 @@ COLOR
 /*********************
 Logo and Icons
 **********************/
-.main-logo {
-	width: 124px;
-	height: 34px;
-	margin-top: 22px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	background: url() no-repeat;
-	background-size: 100%;
+#logo {
+	width: 50%;
 }
+
+
 
 
 
@@ -135,6 +151,14 @@ Carousel
 	color: white;
 }
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+
+}
+
+#myCarousel {
+	background-color: #F8F8FF;
+}
 
 /*********************
 fotorama
