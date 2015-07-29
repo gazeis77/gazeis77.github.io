@@ -1,15 +1,6 @@
 /*********************
 Layout
 **********************/
-p {
-	@font-face {
-font-family: 'Avenir Next LT Pro Condensed';
-font-style: normal;
-font-weight: normal;
-src: local('Avenir Next LT Pro Condensed'), url('AvenirNextLTPro-Cn.woff') format('woff');
-}
-}
-
 body {
 	padding-top: 50px;
 }
@@ -34,10 +25,12 @@ a {
   a:hover {
   	color: gray;
   }
-/*
-  p {
+
+ h2, h3, p, ul, li {
   	color: #C0C0C0;
-  } /*
+  } 
+
+
 
 /*********************
 Jumbotron
@@ -88,9 +81,18 @@ Navbar
  }
 
 .navbar-brand {
-	width: 180px;
-	height: 80px;
-	margin-bottom: 0;
+	width: 140px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.navbar {
+	background-color: #F8F8FF;
+}
+
+div .navbar .navbar-default .navbar-fixed-top a {
+	margin-top: 20px;
 }
 
 /*
@@ -111,6 +113,8 @@ COLOR
   .text-warning {
   	color: black;
   }
+
+
 
 
 
@@ -161,7 +165,7 @@ Carousel
 }
 
 /*********************
-fotorama
+Art Gallery
 **********************/
 
 .fotorama {
@@ -170,7 +174,24 @@ fotorama
 
 }
 
+.imgname {
+	width: 100%;
+}
 
+.imgname2 {
+	width: 100%;
+}
+/*
+#lightbox {
+	position:fixed;
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:rgba(0, 0, 0, .5); 
+    text-align:center;
+}
+*/
 /*********************
 Booth
 **********************/
@@ -216,6 +237,21 @@ label span, .red {
 	color: black;
 }
 
+/*********************
+Services
+**********************/
+
+.servicesh2 {
+	text-align: center;
+}
+
+.imgcenter {
+	display: center;
+}
+
+.resize {
+	width: 100%;
+}
 
 
 

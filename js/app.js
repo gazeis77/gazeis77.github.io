@@ -138,6 +138,11 @@ var imgname =
   'img/untitled-45.jpg',
   'img/untitled-44.jpg',
   'img/untitled-43.jpg',
+ ]
+
+
+ var imgname2 =     
+  [
   'img/untitled-42.jpg',
   'img/untitled-41.jpg',
   'img/untitled-40.jpg',
@@ -177,8 +182,9 @@ var imgname =
   'img/untitled-7.jpg',
   'img/untitled-8.jpg',
   'img/untitled-10.jpg'
- ]
-      
+  ] 
+
+
 
     var $div = $(".imgname");
 
@@ -186,9 +192,13 @@ var imgname =
         $("<img />").attr("src", val).appendTo($div);
     });
 
+    var $div = $(".imgname2");
 
+    $.each(imgname2, function(i, val) {
+        $("<img />").attr("src", val).appendTo($div);
+    });
 
-
+     
 
 
 
