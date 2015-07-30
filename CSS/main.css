@@ -32,15 +32,6 @@ a {
 
 
 
-/*********************
-Jumbotron
-**********************/
-
-  .jumbotron {
-  	text-align: center;
-  	margin: 50px 0;
-  }
-
 
 /*********************
 IMAGE
@@ -95,12 +86,6 @@ div .navbar .navbar-default .navbar-fixed-top a {
 	margin-top: 20px;
 }
 
-/*
- .nav-logo {
- 	width: 100px;
- 	margin-bottom: -75px;
-
- }/*
 
 /*********************
 COLOR
@@ -221,10 +206,6 @@ packages
 	list-style-type: none;
 }
 
-/*********************
-packages
-**********************/
-
 label span, .red {
 	color: #8B0000;
 }
@@ -254,5 +235,57 @@ Services
 }
 
 
+/*********************
+Success 
+**********************/
+
+.thankyou {
+	color: #F0FFFF;
+	text-shadow: 2px 2px #000;
+}
+
+.navbar-custom {
+	background-color: #F0FFFF;
+}
 
 
+/*********************
+Footer
+**********************/
+.footer {
+	text-align: center;
+}
+
+.footer p {
+	margin-top: 10px;
+}
+
+.fa {
+	color:#C0C0C0;
+}
+
+a:hover .fa  {
+	color: black;
+}
+
+/*********************
+Jumbotron
+**********************/
+
+  .jumbotron {
+  	text-align: center;
+  	margin: 50px 0;
+  	color: black;
+  }
+
+  .jumbotron {
+  	color: black;
+  }
+
+  .lead {
+  	color: black;
+  }
+
+.carousel-caption .lead{
+	color: white;
+}
