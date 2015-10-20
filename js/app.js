@@ -1,3 +1,17 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
  $(document).ready(function () {
   $('.fotorama').fotorama({
     data: [

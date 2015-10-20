@@ -1,4 +1,9 @@
 
+
+
+
+
+
 var error_list = [];
 
     function validate_form() {
@@ -21,8 +26,8 @@ var error_list = [];
             error_list.push("Firstname is required");
         } else if(!max_length(firstname,25)) {
             error_list.push("Firstname cannot be longer than 25 characters");
-        } else if(!min_length(firstname,5)) {
-            error_list.push("Firstname cannot be shorter than than 5 characters");
+        } else if(!min_length(firstname,2)) {
+            error_list.push("Firstname cannot be shorter than than 2 characters");
         }
 
         // Lastname
@@ -141,5 +146,24 @@ var error_list = [];
         var re = /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/i;
         return re.test(val);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
